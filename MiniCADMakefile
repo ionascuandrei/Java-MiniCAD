@@ -1,0 +1,5 @@
+build:
+	javac -cp . Main.java
+
+clean:
+	rm -rf *.class

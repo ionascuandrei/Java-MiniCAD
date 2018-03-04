@@ -1,0 +1,28 @@
+Tema 2 POO - Ionașcu Andrei 325CD
+
+	În implementarea acestei teme am integrat cele 3 pattern-uri: Singleton,
+Factory și Visitor, pentru a facilita accesibilitatea.
+	Programul este structurat astfel:
+		-Main.java
+		-tools: Drawer, Pixel, Shape, ShapeFactory, Visitor
+		-shapes: Canvas, Circle, Diamond, Line, Polygon, Rectangle, Square, 
+	Triangle
+	
+	Pattern-ul Visitor este compus din cele 2 interfețe: Shape și Visitor.
+Acest pattern este la baza desenării tutoror formelor pentru a evita folosirea
+comenzilor de tip "instanceOF".
+	Pattern-ul Factory are baza în folderul Main și face legătura cu toate
+formele puse la dispoziție prin clasa ShapeFactory. Această clasă va prelua
+string-ul de date dat în fișierul de input și va returna forma dorită, cu
+parametrii doriți.
+	Pattern-ul Singleton este realizat între clasa Main și clasa ShapeFactory,
+ajutând la creerea Pattern-ului Factory. Având în vedere că ShapeFactory
+trebuie instanțiat doar o singură dată, am inițializat instanța acestuia în
+interiorul clasei ShapeFactory și am oferit-o la cerere clasei Main pentru
+a apela instanțierea formelor.
+	Formele au fost salvate într-un ArrayList pentru a putea fi folosite și
+în implementările viitoare.
+
+	Pentru o descriere mai amănunțită a implementării, puteți accesa codul
+pentru a observa descrierile metodelor și pașilor de implmentare, acolo unde
+este folosit.
