@@ -1,7 +1,5 @@
-Tema 2 POO - Ionașcu Andrei 325CD
-http://elf.cs.pub.ro/poo/teme/tema2
-
-	În implementarea acestei teme am integrat cele 3 pattern-uri: Singleton,
+Ionașcu Andrei
+	În implementarea acestui proiect am integrat cele 3 pattern-uri: Singleton,
 Factory și Visitor, pentru a facilita accesibilitatea.
 	Programul este structurat astfel:
 		-Main.java
