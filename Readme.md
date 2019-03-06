@@ -11,5 +11,3 @@ Beneficiu personal:
 - aprofundarea noțiunilor de moștenire, agregare și interfațare în contextul OOP
 
 Limbaj/biblioteci/cunoștințe folosite: Java, Desing Patterns
-
-https://github.com/ionascuandrei/Java-MiniCAD
